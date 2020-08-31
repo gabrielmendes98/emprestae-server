@@ -13,3 +13,9 @@ Como o foco do projeto não era o backend, não coloquei a parte de verificaçã
 ## Start the app
 
 `yarn start`
+
+## Live demo
+
+o deploy do server foi feito no Heroku para que a Live demo do front-end fosse possível.
+
+https://emprestae-server.herokuapp.com/
