@@ -4,6 +4,8 @@ const jsonServer = require('json-server');
 const jwt = require('jsonwebtoken');
 const cors = require('cors');
 
+require('dotenv').config();
+
 const server = jsonServer.create();
 
 const router = jsonServer.router('./db.json');
@@ -35,6 +37,6 @@ server.post('/auth/login', (req, res) => {
 
 server.use(router);
 
-server.listen(3333, () => {
+server.listen(process.env.PORT, () => {
   console.log('Run Auth API Server');
 });
