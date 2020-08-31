@@ -1,0 +1,131 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Gabriel Santiago",
+      "email": "gabriel@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": 2,
+      "name": "Jureg",
+      "email": "jrueg@gmail.com",
+      "password": "123456"
+    }
+  ],
+  "loans": [
+    {
+      "name": "Gabriel Santiago",
+      "cpf": "08567988608",
+      "agency": "123456",
+      "account": "1234",
+      "value": "320.00",
+      "accountType": "corrente",
+      "bank": "itau",
+      "parcels": "3",
+      "userId": 1,
+      "status": "analise",
+      "id": 1
+    },
+    {
+      "name": "Gabriel Santiago",
+      "cpf": "08567988608",
+      "agency": "123456",
+      "account": "1234",
+      "value": "320.00",
+      "accountType": "corrente",
+      "bank": "itau",
+      "parcels": "3",
+      "userId": 1,
+      "status": "reprovado",
+      "id": 2
+    },
+    {
+      "name": "Gabriel Santiago",
+      "cpf": "08567988608",
+      "agency": "123456",
+      "account": "1234",
+      "value": "320.00",
+      "accountType": "corrente",
+      "bank": "itau",
+      "parcels": "3",
+      "userId": 1,
+      "status": "pago",
+      "received": "29/08/2020",
+      "paid": "29/10/2020",
+      "id": 3
+    },
+    {
+      "name": "Gabriel Santiago",
+      "cpf": "08567988608",
+      "agency": "123456",
+      "account": "1234",
+      "value": "320.00",
+      "accountType": "corrente",
+      "bank": "itau",
+      "parcels": "3",
+      "userId": 1,
+      "status": "aprovado",
+      "received": "29/07/2020",
+      "due": "29/09/2020",
+      "id": 4
+    },
+    {
+      "value": "123",
+      "accountType": "corrente",
+      "bank": "itau",
+      "parcels": 1,
+      "userId": 1,
+      "status": "analise",
+      "id": 5
+    },
+    {
+      "name": "Gabriel",
+      "cpf": "08567988608",
+      "agency": "123456",
+      "account": "15684",
+      "value": "123.66",
+      "accountType": "corrente",
+      "bank": "itau",
+      "parcels": "5",
+      "userId": 1,
+      "status": "analise",
+      "id": 6
+    },
+    {
+      "name": "Gabriel",
+      "cpf": "08567988608",
+      "agency": "1234",
+      "account": "123456",
+      "value": "300.55",
+      "accountType": "poupanca",
+      "bank": "santander",
+      "parcels": "9",
+      "userId": 1,
+      "status": "analise",
+      "id": 7
+    }
+  ],
+  "banks": [
+    {
+      "id": 1,
+      "name": "Banco do brasil",
+      "value": "banco-do-brasil"
+    },
+    {
+      "id": 2,
+      "name": "Itaú",
+      "value": "itau"
+    },
+    {
+      "id": 3,
+      "name": "Caixa Econômica Federal",
+      "value": "caixa"
+    },
+    {
+      "id": 4,
+      "name": "Santander",
+      "value": "santander"
+    }
+  ]
+}
